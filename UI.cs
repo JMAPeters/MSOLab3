@@ -29,9 +29,11 @@ namespace Lab3
             // This is the code you need to refactor
             // *************************************
 
+            //This code creates a Ticket with all the information stored in it
             Ticket ticket = new Ticket(info.Class, info.Discount, info.Way, info.From, info.To);
             float price = ticket.GetCost();
             
+            //This code sets up a new sale
             Sale sale = new Sale(info.Payment);
             sale.Pay(price);
 		}
