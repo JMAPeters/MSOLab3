@@ -5,6 +5,7 @@ using System.Text;
 
 namespace Lab3
 {
+    //Chooses the correct Discount
     static class DiscountAssigner{
         public static Discount GetDiscount(UIDiscount info) {
             Discount discount = null;

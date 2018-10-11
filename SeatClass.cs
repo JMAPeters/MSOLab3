@@ -7,6 +7,7 @@ namespace Lab3
 {
     static class ClassAssigner
     {
+        //Chooses the correct Seatclass
         public static SeatClass GetClass(UIClass info) {
             SeatClass seatclass = null;
             switch (info)

@@ -22,7 +22,6 @@ namespace Lab3
         public float GetCost() {
             // Get number of tariefeenheden
             int tariefeenheden = Tariefeenheden.getTariefeenheden(from, to);
-
             // Compute the column in the table based on choices
             int tableColumn;
             // First based on class
