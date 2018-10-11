@@ -7,10 +7,10 @@ namespace Lab3
 {
     class Ticket
     {
-        SeatClass seatClass;
-        Discount discount;
-        UIWay way;
-        string from, to;
+        private SeatClass seatClass;
+        private Discount discount;
+        private UIWay way;
+        private string from, to;
         public Ticket(UIClass seatClass, UIDiscount discount, UIWay way, string from, string to) {
             this.seatClass = ClassAssigner.GetClass(seatClass);
             this.discount = DiscountAssigner.GetDiscount(discount);
